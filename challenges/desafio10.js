@@ -6,10 +6,10 @@ db.produtos.find({
           percentual: {
             $gte: 30,
             $lte: 40,
-          }
+          },
         },
-        { tipo: 'proteínas' }
-      ]
-    }
-  }
+        { tipo: "proteínas" },
+      ],
+    },
+  },
 }, { _id: 0, nome: 1 });

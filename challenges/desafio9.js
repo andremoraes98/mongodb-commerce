@@ -5,10 +5,10 @@ db.produtos.find({
         {
           quantidade: {
             $lt: 500,
-          }
+          },
         },
-        { tipo: 'calorias' }
-      ]
-    }
-  }
+        { tipo: "calorias" },
+      ],
+    },
+  },
 }, { _id: 0, nome: 1 });
